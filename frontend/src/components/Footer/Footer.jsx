@@ -1,12 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className='footer mt-4' style={{ height:'10%', textAlign: 'center', alignContent: 'center', justifyContent: 'center' }}>
-      <div className='footer-image'>
-          Logo
-      </div>
-      <div className='footer-info mt-4'>
+    <div className='footer shadow footer-fixed mt-0' style={{  color: 'white' ,height:'5%', textAlign: 'center', alignContent: 'center', justifyContent: 'center' }}>
+      <div className='footer-info mt-3'>
         COPYRIGHT 2023 WEBSITE - ALL RIGHTS RESERVED. PRIVACY POLICY
       </div>
     </div>

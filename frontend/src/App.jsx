@@ -7,20 +7,24 @@ import Litigation from "./components/Litigations/Litigation.jsx";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Location from "./components/Location/Location";
-
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-        <Header />
-        <Carousel />
-        <About />
-        <PracticeArea /> 
-        <OurTeam />
-        <Litigation />
-        <Contact />
-        <Location />
-        <Footer />
+      <Header />
+      <Carousel />
+      <About />
+      <PracticeArea />
+      <OurTeam />
+      <Litigation />
+      <Contact />
+      <Location />
+      <Footer />
     </div>
   );
 }

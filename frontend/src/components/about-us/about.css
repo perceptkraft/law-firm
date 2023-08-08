@@ -1,0 +1,8 @@
+.circle-outline {
+    border-style: solid;
+    padding: 44px;
+    width: 56%;
+    height: 50%;
+    border-width: 1px;
+    border-radius: 100px;
+}

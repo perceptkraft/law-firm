@@ -15,7 +15,11 @@ const Location = () => {
     },
     zoom: 5
   };
-  return (
+  return (<>
+    <h5 className='d-flex justify-content-center h1 mt-5'>Location</h5>
+
+    <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
+
     <div className='locationSetter mt-5' style={{ height: '50vh', width: '100%' }}>
 
       <GoogleMapReact
@@ -26,11 +30,12 @@ const Location = () => {
           lat={59.955413}
           lng={30.337844}
           text='Marker'
-          
+
         />
       </GoogleMapReact>
 
     </div>
+  </>
   )
 
 }

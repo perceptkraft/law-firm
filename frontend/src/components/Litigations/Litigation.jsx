@@ -9,7 +9,7 @@ const Litigation = () => {
         <div>
             <h5 className='d-flex justify-content-center h1 mt-2'>Support</h5>
 
-            <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7    %', marginTop: '1%' }} />
+            <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
 
             <div style={{ marginTop: '2%' }}>
                 <Container>

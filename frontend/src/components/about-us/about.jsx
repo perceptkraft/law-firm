@@ -2,61 +2,62 @@ import React from 'react'
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import image1 from "../../images/image1.png"
+import './about.css';
 
 const About = () => {
   return (
-    <div>
+    <div className='mt-5 mb-5'>
 
-      <h5 className='d-flex justify-content-center h1 mt-2'>Why us?</h5>
+      <h5 className='d-flex justify-content-center h1 mt-5'>Why us?</h5>
 
       <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
 
-      <p style={{ textAlign: 'center', wordWrap: 'break-word' }}>
+      <p style={{ textAlign: 'center', wordWrap: 'break-word' }} className='mt-4'>
         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in piece of classical Latin literature<br /> from 45 BC, it a old. Richard McClintock, looked up one of the more obscure
       </p>
 
-      <Row className='mt-5' style={{ justifyContent: 'center', alignItems: 'center', marginLeft: '7%'}}>
+      <Row className='mt-5' style={{ justifyContent: 'center', alignItems: 'center' }}>
 
         <Col>
-          <div className="ml-5 card justify-content-center shadow" style={{ width: "15rem", height: '12%' }}>
+          <div className="card justify-content-center p-5" style={{ border: '1px' }}>
             <div className='d-flex justify-content-center'>
-              <img className="mt-4" src={image1} style={{ width: "5rem" }} alt='' />
+              <img className="mt-4 circle-outline" src={image1} alt='' />
             </div>
-            <div className="card-body justify-content-center">
-              <h5 className="card-title justify-content-center " style={{ fontFamily: 'Roboto', fontSize: '15px', textAlign: 'center' }} > HIGH DEGREE OF INVOLMENT & AVAILABILITY </h5>
+            <div className="card-body">
+              <h5 className="card-title text-center" style={{ fontFamily: 'Roboto', fontSize: '15px' }} > HIGH DEGREE OF INVOLMENT &<br /> AVAILABILITY </h5>
             </div>
           </div>
         </Col>
 
         <Col>
-          <div className="card justify-content-center shadow" style={{ width: "15rem", height: '12%' }}>
+          <div className="card justify-content-center p-5" style={{ border: '1px' }}>
             <div className='d-flex justify-content-center'>
-              <img className="mt-4" src={image1} style={{ width: "5rem" }} alt='' />
+              <img className="mt-4 circle-outline" src={image1} alt='' />
             </div>
-            <div className="card-body justify-content-center">
-              <h5 className="card-title justify-content-center " style={{ fontFamily: 'Roboto', fontSize: '15px', textAlign: 'center' }} > HIGH QUALITY LEGAL ADVICE </h5>
+            <div className="card-body">
+              <h5 className="card-title text-center" style={{ fontFamily: 'Roboto', fontSize: '15px' }} > HIGH DEGREE OF INVOLMENT &<br /> AVAILABILITY </h5>
             </div>
           </div>
         </Col>
 
         <Col>
-          <div className="card justify-content-center shadow" style={{ width: "15rem", height: '12%' }}>
+          <div className="card justify-content-center p-5" style={{ border: '1px' }}>
             <div className='d-flex justify-content-center'>
-              <img className="mt-4" src={image1} style={{ width: "5rem" }} alt='' />
+              <img className="mt-4 circle-outline" src={image1} alt='' />
             </div>
-            <div className="card-body justify-content-center">
-              <h5 className="card-title justify-content-center " style={{ fontFamily: 'Roboto', fontSize: '15px', textAlign: 'center' }}> AVAILABILITY AND RESPONSIVENESS </h5>
+            <div className="card-body">
+              <h5 className="card-title text-center" style={{ fontFamily: 'Roboto', fontSize: '15px' }} > HIGH DEGREE OF INVOLMENT &<br /> AVAILABILITY </h5>
             </div>
           </div>
         </Col>
 
         <Col>
-        <div className="card justify-content-center shadow" style={{ width: "15rem", height: '12%' }}>
+          <div className="card justify-content-center p-5" style={{ border: '1px' }}>
             <div className='d-flex justify-content-center'>
-              <img className="mt-4" src={image1} style={{ width: "5rem" }} alt='' />
+              <img className="mt-4 circle-outline" src={image1} alt='' />
             </div>
-            <div className="card-body justify-content-center">
-              <h5 className="card-title justify-content-center " style={{ fontFamily: 'Roboto', fontSize: '15px', textAlign: 'center' }}> LEGAL RESEARCH AND ANALYSIS BASED ADVISORY </h5>
+            <div className="card-body">
+              <h5 className="card-title text-center" style={{ fontFamily: 'Roboto', fontSize: '15px' }} > HIGH DEGREE OF INVOLMENT &<br /> AVAILABILITY </h5>
             </div>
           </div>
         </Col>

@@ -9,6 +9,10 @@ import './Contact.css';
 const Contact = () => {
     return (
         <div>
+            <h5 className='d-flex justify-content-center h1 mt-5'>Contact Us</h5>
+
+            <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
+
             <Container>
                 <Form>
                     <Row>
@@ -50,7 +54,7 @@ const Contact = () => {
                                             <Col ><p className='facebookIcon'>f</p></Col>
                                             <Col ><p className='twitterIcon'>T</p></Col>
                                             <Col ><p className='linkdinIcon'>L</p></Col>
-                                            <Col ><p className='youtubeIcon'>Y</p></Col>                                            
+                                            <Col ><p className='youtubeIcon'>Y</p></Col>
                                         </Row>
                                     </div>
                                 </div>
