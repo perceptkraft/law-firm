@@ -1,0 +1,80 @@
+.contactInfo{
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInfo .contactInfodiv{
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contactInfo .socialmedia-icons{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    border: 1;
+    border-color: black;   
+    margin-bottom: 5%;
+}
+
+.socialmedia-icons .facebookIcon , .linkdinIcon, .twitterIcon, .youtubeIcon {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 55%;
+    border-color: black !important;
+    height: 90%;
+    width: 80%;
+    text-align: center;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 5px;
+}
+
+.facebookIcon:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 55%;
+    border-color: lightblue !important;
+    background-color: lightblue ;
+    color: white;
+    cursor: pointer;
+}
+
+.linkdinIcon:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 55%;
+    border-color: lightblue !important;
+    background-color: lightblue ;
+    color: white;
+    cursor: pointer;
+}
+
+.twitterIcon:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 55%;
+    border-color: lightblue !important;
+    background-color: lightblue ;
+    cursor: pointer;
+    color: white;
+}
+
+.youtubeIcon:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 55%;
+    border-color: red !important;
+    background-color: red ;
+    color: white;
+    cursor: pointer;
+}
