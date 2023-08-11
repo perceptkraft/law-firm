@@ -1,7 +1,6 @@
-import Header from './components/Header/Header';
-import Footer from "./components/Footer/Footer";
 import Carousel from './components/Carousel/Carousel';
 import Dashboard from './Dashboard/Dashboard';
+import HomePage from "./components/Home Page/homepage";
 import {
   BrowserRouter as Router,
   Routes,
@@ -13,12 +12,11 @@ function App() {
   return (
     <div>
       <Router>
-        <Header />
+
         <Routes>
-          <Route path='/' element={<Carousel />} />
-          <Route path='/dashboard' element={<Dashboard />} />
+          <Route path='/' element={<HomePage />} />
+          <Route path='/details-board' element={<Dashboard />} />
         </Routes>
-        <Footer />
       </Router>
     </div>
 
