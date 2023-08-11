@@ -7,9 +7,9 @@ import Fade from "react-reveal/Fade";
 import Slide from 'react-reveal/Slide';
 
 
-const About = () => {
-  return (
-    <div className='mt-5 mb-5'>
+const About = ({ id }) => {
+  return (<>
+    <div className='mt-5 mb-5' id={id}>
 
       <Fade Top>
         <h5 className='d-flex justify-content-center h1 mt-5'>Why us?</h5>
@@ -79,6 +79,7 @@ const About = () => {
 
       </Row>
     </div>
+  </>
   )
 }
 

@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Fade from "react-reveal/Fade"
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -14,13 +15,15 @@ const Header = () => {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="m-auto d-flex justify-content-center">
-                                <Nav.Link href="/" className='text-dark'>
-                                    Home
-                                </Nav.Link>
-                                <Nav.Link href="/about" className='text-dark'>
-                                    About
-                                </Nav.Link>
-                                <Nav.Link href="/PracticeArea" className='text-dark'>
+
+                                <Link to="/">Home</Link>
+
+                                <Link to="/about">About</Link>
+
+                                <Link to="/PracticeArea">Practice</Link>
+
+                                <Link to="/about">About</Link>
+                                {/* <Nav.Link href="/PracticeArea" className='text-dark'>
                                     Practice
                                 </Nav.Link>
                                 <Nav.Link href="/OurTeam" className='text-dark'>
@@ -31,12 +34,12 @@ const Header = () => {
                                 </Nav.Link>
                                 <Nav.Link href="/Location" className='text-dark'>
                                     Location
-                                </Nav.Link>
+                                </Nav.Link> */}
                             </Nav>
                             <Nav>
-                                <Nav.Link eventKey={2} href="/Contact" className='text-dark'>
+                                {/* <Nav.Link eventKey={2} href="/Contact" className='text-dark'>
                                     Contact Us
-                                </Nav.Link>
+                                </Nav.Link> */}
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

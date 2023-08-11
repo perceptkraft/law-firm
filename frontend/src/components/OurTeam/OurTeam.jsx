@@ -7,7 +7,7 @@ import Pulse from "react-reveal/Pulse";
 
 const OurTeam = () => {
     return (
-        <div className='mt-5 mb-5'>
+        <div className='mt-5 mb-5' id="ourteam">
 
             <Fade top>
                 <h5 className='d-flex justify-content-center h1 mt-2'>Our Team</h5>

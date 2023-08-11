@@ -9,7 +9,7 @@ import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
     return (
-        <div>
+        <div id="contact">
             <Fade top>
                 <h5 className='d-flex justify-content-center h1 mt-5'>Contact Us</h5>
 

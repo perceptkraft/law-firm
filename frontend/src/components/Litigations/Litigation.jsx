@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade";
 
 const Litigation = () => {
     return (
-        <div>
+        <div id="litigation">
             <Fade top>
                 <h5 className='d-flex justify-content-center h1 mt-2'>Support</h5>
 

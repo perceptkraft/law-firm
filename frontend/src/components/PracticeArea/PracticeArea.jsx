@@ -22,7 +22,7 @@ import Fade from 'react-reveal/Fade';
 
 const PracticeArea = () => {
     return (
-        <>
+        <div id="practicearea">
             <Fade top>
                 <h5 className='d-flex justify-content-center h1 mt-5'>Areas OF Practice</h5>
                 <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
@@ -225,7 +225,7 @@ const PracticeArea = () => {
                 </Carousel>
             </div>
 
-        </>
+        </div>
     )
 }
 
