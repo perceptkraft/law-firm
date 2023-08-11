@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import './Contact.css';
 import Fade from 'react-reveal/Fade';
+import { FaFacebook, FaInstagram, FaLinkedin, FaPinterest, FaReddit, FaTwitter, FaYoutube } from "react-icons/fa"
 
 const Contact = () => {
     return (
@@ -23,19 +24,41 @@ const Contact = () => {
                         <Col xs={5}>
                             <div className='mt-4'>
                                 <Fade left>
-                                    <Form.Group controlId="formBasicEmail" className='w-100'>
-                                        <Form.Control type="email" className='w-100' size='lg' placeholder="Enter email" required />
-                                    </Form.Group>
-                                    <Form.Group controlId="formBasicPassword" className='mt-4'>
-                                        <Form.Control type="password" className='w-100' size="lg" placeholder="Password" required />
-                                    </Form.Group>
-                                    <Form.Group controlId="exampleForm.ControlTextarea1" className='mt-3'>
-                                        <Form.Control as="textarea" rows={5} />
-                                    </Form.Group>
-                                    <div className='mt-4'>
-                                        <Button className='w-100' variant="danger" type="submit">
-                                            Submit
-                                        </Button>
+                                    <div className='row'>
+                                        <div className='col-6'>
+                                            <Form.Group controlId="formBasicEmail" className='w-100'>
+                                                <Form.Control type="email" className='w-100' size='lg' placeholder="First Name" required />
+                                            </Form.Group>
+                                        </div>
+                                        <div className='col-6'>
+                                            <Form.Group controlId="formBasicPassword" className=''>
+                                                <Form.Control type="password" className='w-100' size="lg" placeholder="Last Number" required />
+                                            </Form.Group>
+                                        </div>
+                                        </div>
+                                        <div className='row'>
+                                        <div className='col-6'>
+                                            <Form.Group controlId="formBasicPassword" className='mt-4'>
+                                                <Form.Control type="password" className='w-100' size="lg" placeholder="Email" required />
+                                            </Form.Group>
+                                        </div>
+                                        <div className='col-6'>
+                                            <Form.Group controlId="formBasicPassword" className='mt-4'>
+                                                <Form.Control type="password" className='w-100' size="lg" placeholder="Phone Number" required />
+                                            </Form.Group>
+                                        </div>
+                                        </div>
+                                        <div className='row'>
+                                        <div >
+                                            <Form.Group controlId="exampleForm.ControlTextarea1" className='mt-3'>
+                                                <Form.Control as="textarea" rows={5} placeholder='Message...' />
+                                            </Form.Group>
+                                        </div>
+                                        <div className='mt-4'>
+                                            <Button className='w-100' variant="danger" type="submit">
+                                                Send
+                                            </Button>
+                                        </div>
                                     </div>
                                 </Fade>
                             </div>
@@ -58,12 +81,15 @@ const Contact = () => {
                                         <div>
                                             suport.mail@gmail.com
                                         </div>
+                                        <div>
+                                            
+                                        </div>
                                         <div className='socialmedia-icons'>
                                             <Row>
-                                                <Col ><p className='facebookIcon'>f</p></Col>
-                                                <Col ><p className='twitterIcon'>T</p></Col>
-                                                <Col ><p className='linkdinIcon'>L</p></Col>
-                                                <Col ><p className='youtubeIcon'>Y</p></Col>
+                                                <Col><p className='facebookIcon'><FaFacebook /></p></Col>
+                                                <Col ><p className='twitterIcon'><FaTwitter /></p></Col>
+                                                <Col ><p className='linkdinIcon'><FaLinkedin /></p></Col>
+                                                <Col ><p className='youtubeIcon'><FaYoutube /></p></Col>
                                             </Row>
                                         </div>
                                     </div>

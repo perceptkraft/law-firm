@@ -28,44 +28,16 @@ const PracticeArea = () => {
                 <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
             </Fade>
 
-            <div>
-                <Carousel style={{ backgroundColor: 'black', color: 'white', height: '500px', marginTop: '50px', textAlign: 'center' }}>
-                    <Carousel.Item >
-                        <div class="row row-cols-1 row-cols-md-6 g-1 mt-5 ">
+            <div className='article' style={{ backgroundColor: 'black', color: 'white', height: '100%', marginTop: '4%', textAlign: 'center' }}>
+                <Carousel >
+
+                    <Carousel.Item>
+                        <div class="row row-cols-3 row-cols-md-5 g-5 mb-5">
+                            <div className='col'></div>
                             <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={CivilAndCriminal} alt='' className='w-25 h-100 justify-content-center align-items-center' />
-                                    </div>
-                                    <div class="card-body" className='text-cnter'>
-                                        <h5 class="card-title">Civil & Criminal Litigation Laws</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={LabourEmployment} alt='' className='w-25 h-100 justify-content-center align-items-center' />
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Labour & Employment</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={Compliances} alt='' className='w-25 h-100 justify-content-center align-items-center' />
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Compliances</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={StructuringNegotiationOfContracts} alt='' className='w-25 h-100 justify-content-center align-items-center' />
+                                <div class="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
+                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
+                                        <img src={StructuringNegotiationOfContracts} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Structuring & Negotiation of Contracts</h5>
@@ -73,9 +45,9 @@ const PracticeArea = () => {
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={DisputeResolution} alt='' className='w-25 h-100 justify-content-center align-items-center' />
+                                <div class="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
+                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
+                                        <img src={DisputeResolution} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Dispute Resolution</h5>
@@ -83,9 +55,9 @@ const PracticeArea = () => {
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={IntellectualPropertyInformationTechnology} alt='' className='w-25 h-100 justify-content-center align-items-center' />
+                                <div class="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
+                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
+                                        <img src={IntellectualPropertyInformationTechnology} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Intellectual Property & Information Technology</h5>
@@ -94,12 +66,50 @@ const PracticeArea = () => {
                             </div>
                         </div>
                     </Carousel.Item>
+
                     <Carousel.Item>
-                        <div class="row row-cols-1 row-cols-md-6 g-1 mt-5">
+                        <div class="row row-cols-3 row-cols-md-5 g-5 mb-5">
+                            <div className='col'></div>
                             <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={InsolvencyBankruptcy} alt='' className='w-25 h-100 justify-content-center align-items-center' />
+                                <div class="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
+                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
+                                        <img src={StructuringNegotiationOfContracts} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Structuring & Negotiation of Contracts</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
+                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
+                                        <img src={DisputeResolution} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dispute Resolution</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
+                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
+                                        <img src={IntellectualPropertyInformationTechnology} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Intellectual Property & Information Technology</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                        <div class="row row-cols-3 row-cols-md-5 g-5 mb-5">
+                            <div className='col'></div>
+                            <div class="col">
+                                <div class="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
+                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
+                                        <img src={StructuringNegotiationOfContracts} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Insolvency & Bankruptcy</h5>
@@ -107,9 +117,9 @@ const PracticeArea = () => {
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={ComplianceBriberyAnticorruptionLaws} alt='' className='w-25 h-100 justify-content-center align-items-center' />
+                                <div class="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
+                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
+                                        <img src={DisputeResolution} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Compliance, Bribery & Anti- corruption Laws</h5>
@@ -117,115 +127,22 @@ const PracticeArea = () => {
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={JointVentures} alt='' className='w-25 h-100 justify-content-center align-items-center' />
+                                <div class="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
+                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
+                                        <img src={IntellectualPropertyInformationTechnology} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Joint Ventures</h5>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={RealEstate} alt='' className='w-25 h-100 justify-content-center align-items-center' />
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Real Estate</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={IncomeTaxGST} alt='' className='w-25 h-100 justify-content-center align-items-center' />
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Income Tax and GST</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={CompetitionLaw} alt='' className='w-25 h-100 justify-content-center align-items-center' />
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Competition Law</h5>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </Carousel.Item>
-                    <Carousel.Item>
-                        <div class="row row-cols-1 row-cols-md-6 g-1 mt-5">
-                            <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={MatrimonialDisputes} alt='' className='w-25 h-100 justify-content-center align-items-center' />
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Matrimonial Disputes</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={Litigation} alt='' className='w-25 h-100 justify-content-center align-items-center' />
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Litigation</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={Trademark} alt='' className='w-25 h-100 justify-content-center align-items-center' />
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Trademark</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={MatterRelatedToMunicipalCorporation} alt='' className='w-25 h-100 justify-content-center align-items-center' />
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Matter related to Municipal Corporation</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={TenderContracts} alt='' className='w-25 h-100 justify-content-center align-items-center' />
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Tender Contracts</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card h-100" style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='border border-5mt-5 w-75 justify-content-center align-items-center ml-5 mt-5 mb-5 p-5 rounded-circle'>
-                                        <img src={BuildingPermissions} alt='' className='w-25 h-100 justify-content-center align-items-center' />
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Building Permissions</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </Carousel.Item>
+
                 </Carousel>
             </div>
 
-        </div>
+        </div >
     )
 }
 
