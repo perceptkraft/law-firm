@@ -16,7 +16,7 @@ const Slider = (id) => {
             <Carousel activeIndex={index} onSelect={handleSelect} indicators={false}>
                 <Carousel.Item>
                     <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <p></p>
                 </Carousel.Item>
                 <Carousel.Item>
                     <h3>Second slide label</h3>
@@ -24,9 +24,7 @@ const Slider = (id) => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <h3>Third slide label</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
+                    <p></p>
                 </Carousel.Item>
             </Carousel>
 

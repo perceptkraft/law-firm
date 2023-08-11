@@ -21,8 +21,8 @@ const Contact = () => {
                 <Form>
                     <Row>
                         <Col xs={1}></Col>
-                        <Col xs={5}>
-                            <div className='mt-4'>
+                        <Col xs={5} className='mt-5'>
+                            <div className='mt-5'>
                                 <Fade left>
                                     <div className='row'>
                                         <div className='col-6'>
@@ -72,18 +72,31 @@ const Contact = () => {
                                         <div className='call-icon'>
                                             <p>Icon</p>
                                         </div>
+                                        <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
                                         <div>
-                                            <h4>0123 456 789</h4>
+                                            <h5>+91 9076888888</h5>
+                                            <h5>+91 8552871132</h5>
+                                            <h5>+91 8888308888</h5>
                                         </div>
+                                        <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '4%' }} />
                                         <div>
-                                            <p>Address</p>
+                                            <p>
+                                                Idnani Law Associates,<br />
+                                                1st Floor, Keswani Complex,<br />
+                                                Above Navjeevan Bank,<br />
+                                                Near Civil Court,<br />
+                                                Ulhasnagar - 421003,<br />
+                                                Dist. Thane Mumbai
+                                            </p>
                                         </div>
+                                        <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
                                         <div>
-                                            suport.mail@gmail.com
+                                            mail@idnaniawassosicates.com<br />
+                                            Diksha.idnaniwassosicates@gmail.com<br />
+                                            Haresh.idnaniwassosicates@gmail.com<br />
+                                            Jatin.idnaniwassosicates@gmail.com
                                         </div>
-                                        <div>
-                                            
-                                        </div>
+                                        <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '4%' }} />
                                         <div className='socialmedia-icons'>
                                             <Row>
                                                 <Col><p className='facebookIcon'><FaFacebook /></p></Col>
