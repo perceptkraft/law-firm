@@ -7,9 +7,9 @@ import Fade from "react-reveal/Fade";
 import Slide from 'react-reveal/Slide';
 
 
-const About = ({ id }) => {
+const About = () => {
   return (<>
-    <div className='mt-5 mb-5' id={id}>
+    <div className='mt-5 mb-5' id="about">
 
       <Fade Top>
         <h5 className='d-flex justify-content-center h1 mt-5'>Why us?</h5>

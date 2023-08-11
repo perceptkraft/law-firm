@@ -15,31 +15,22 @@ const Header = () => {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="m-auto d-flex justify-content-center">
-
-                                <Link to="/">Home</Link>
-
-                                <Link to="/about">About</Link>
-
-                                <Link to="/PracticeArea">Practice</Link>
-
-                                <Link to="/about">About</Link>
-                                {/* <Nav.Link href="/PracticeArea" className='text-dark'>
-                                    Practice
+                              <Nav.Link href="#about" className='text-dark'>
+                                    About
                                 </Nav.Link>
-                                <Nav.Link href="/OurTeam" className='text-dark'>
-                                    Directors
+                                <Nav.Link href="#ourteam" className='text-dark'>
+                                    Our Team
                                 </Nav.Link>
-                                <Nav.Link href="/Litigation" className='text-dark'>
+                                
+                                <Nav.Link href="#litigation" className='text-dark'>
                                     Litigation
                                 </Nav.Link>
-                                <Nav.Link href="/Location" className='text-dark'>
+                                <Nav.Link href="#contactus" className='text-dark'>
+                                    Contact
+                                </Nav.Link>
+                                <Nav.Link href="#location" className='text-dark'>
                                     Location
-                                </Nav.Link> */}
-                            </Nav>
-                            <Nav>
-                                {/* <Nav.Link eventKey={2} href="/Contact" className='text-dark'>
-                                    Contact Us
-                                </Nav.Link> */}
+                                </Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
