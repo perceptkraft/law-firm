@@ -11,7 +11,7 @@ import Footer from "../Footer/Footer";
 import Carousel from "../Carousel/Carousel";
 
 const homepage = () => {
-    return (
+    return (<>
         <div>
             <Header />
             <Carousel />
@@ -24,6 +24,7 @@ const homepage = () => {
             <Cookies />
             <Footer />
         </div>
+    </>
     )
 }
 

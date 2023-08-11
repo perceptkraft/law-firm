@@ -6,6 +6,7 @@ import Fade from "react-reveal/Fade"
 
 const Header = () => {
     return (
+        
         <Fade top>
             <div className='headerClass sticky-top shadow bg-light'>
                 <Navbar expand="lg">

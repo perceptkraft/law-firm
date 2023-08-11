@@ -14,6 +14,7 @@ const Litigation = () => {
                 <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
             </Fade>
         </div>
+        <div className=''></div>
         <div id="litigation" className='article' style={{ backgroundColor: 'black', color: 'white' }}>
 
             <div style={{ marginTop: '2%' }}>

@@ -4,6 +4,7 @@ import StructuringNegotiationOfContracts from '../../images/StructuringNegotiati
 import DisputeResolution from '../../images/DisputeResolution.png';
 import IntellectualPropertyInformationTechnology from '../../images/IntellectualPropertyInformationTechnology.png';
 import Fade from 'react-reveal/Fade';
+import './PracticeArea.css';
 
 const PracticeArea = () => {
     return (
