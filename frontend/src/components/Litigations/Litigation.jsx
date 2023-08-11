@@ -4,24 +4,26 @@ import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
 import SidePhoto from "../../images/sidephoto.jpg";
 import Fade from "react-reveal/Fade";
+import './Litigation.css';
 
 const Litigation = () => {
-    return (
-        <div id="litigation">
+    return (<>
+        <div>
             <Fade top>
                 <h5 className='d-flex justify-content-center h1 mt-2'>Support</h5>
 
                 <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
             </Fade>
+        </div>
+        <div id="litigation" className='article' style={{ backgroundColor: 'black', color: 'white' }}>
+
             <div style={{ marginTop: '2%' }}>
                 <Container>
 
                     <Row>
 
-                        <Col xs={3}>
-                            <Fade left delay={100}>
-                                <img src={SidePhoto} alt="" style={{ width: '105%', height: '100%', boxShadow: '5px 5px' }} />
-                            </Fade>
+                        <Col xs={1}>
+                            
                         </Col>
 
                         <Col xs={5}>
@@ -63,6 +65,7 @@ const Litigation = () => {
             </div>
 
         </div>
+    </>
     )
 }
 
