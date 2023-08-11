@@ -1,5 +1,4 @@
-import Carousel from './components/Carousel/Carousel';
-import Dashboard from './Dashboard/Dashboard';
+import Homepage from "./Contact Dashboard/ContactHomepage";
 import HomePage from "./components/Home Page/homepage";
 import {
   BrowserRouter as Router,
@@ -12,14 +11,12 @@ function App() {
   return (
     <div>
       <Router>
-
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path='/details-board' element={<Dashboard />} />
+          <Route path="/dashboard" element={<Homepage />} />
         </Routes>
       </Router>
     </div>
-
   )
 }
 
