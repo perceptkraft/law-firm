@@ -31,6 +31,9 @@ const Header = () => {
                                     Location
                                 </Nav.Link>
                             </Nav>
+                            <Nav>
+                                text
+                            </Nav>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

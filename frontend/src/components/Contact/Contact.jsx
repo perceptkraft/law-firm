@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import './Contact.css';
 import Fade from 'react-reveal/Fade';
-import { FaFacebook, FaInstagram, FaLinkedin, FaPinterest, FaReddit, FaTwitter, FaYoutube } from "react-icons/fa"
+import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa"
 
 const Contact = () => {
     return (
