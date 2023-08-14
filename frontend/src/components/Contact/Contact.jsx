@@ -23,44 +23,56 @@ const Contact = () => {
                         <Col xs={1}></Col>
                         <Col xs={5} className='mt-5'>
                             <div className='mt-5'>
-                                <Fade left>
-                                    <div className='row'>
-                                        <div className='col-6'>
+
+                                <div className='row'>
+                                    <div className='col-6'>
+                                        <Fade left>
                                             <Form.Group controlId="formBasicEmail" className='w-100'>
                                                 <Form.Control type="email" className='w-100' size='lg' placeholder="First Name" required />
                                             </Form.Group>
-                                        </div>
-                                        <div className='col-6'>
+                                        </Fade>
+                                    </div>
+                                    <div className='col-6'>
+                                        <Fade left>
                                             <Form.Group controlId="formBasicPassword" className=''>
                                                 <Form.Control type="password" className='w-100' size="lg" placeholder="Last Number" required />
                                             </Form.Group>
-                                        </div>
-                                        </div>
-                                        <div className='row'>
-                                        <div className='col-6'>
+                                        </Fade>
+                                    </div>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-6'>
+                                        <Fade left>
                                             <Form.Group controlId="formBasicPassword" className='mt-4'>
                                                 <Form.Control type="password" className='w-100' size="lg" placeholder="Email" required />
                                             </Form.Group>
-                                        </div>
-                                        <div className='col-6'>
+                                        </Fade>
+                                    </div>
+                                    <div className='col-6'>
+                                        <Fade left>
                                             <Form.Group controlId="formBasicPassword" className='mt-4'>
                                                 <Form.Control type="password" className='w-100' size="lg" placeholder="Phone Number" required />
                                             </Form.Group>
-                                        </div>
-                                        </div>
-                                        <div className='row'>
-                                        <div >
+                                        </Fade>
+                                    </div>
+                                </div>
+                                <div className='row'>
+                                    <div>
+                                        <Fade left>
                                             <Form.Group controlId="exampleForm.ControlTextarea1" className='mt-3'>
                                                 <Form.Control as="textarea" rows={5} placeholder='Message...' />
                                             </Form.Group>
-                                        </div>
-                                        <div className='mt-4'>
+                                        </Fade>
+                                    </div>
+                                    <div className='mt-4'>
+                                        <Fade left>
                                             <Button className='w-100' variant="danger" type="submit">
                                                 Send
                                             </Button>
-                                        </div>
+                                        </Fade>
                                     </div>
-                                </Fade>
+                                </div>
+
                             </div>
 
                         </Col>
@@ -75,8 +87,6 @@ const Contact = () => {
                                         <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
                                         <div>
                                             <h5>+91 9076888888</h5>
-                                            <h5>+91 8552871132</h5>
-                                            <h5>+91 8888308888</h5>
                                         </div>
                                         <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '4%' }} />
                                         <div>
@@ -92,9 +102,6 @@ const Contact = () => {
                                         <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
                                         <div>
                                             mail@idnaniawassosicates.com<br />
-                                            Diksha.idnaniwassosicates@gmail.com<br />
-                                            Haresh.idnaniwassosicates@gmail.com<br />
-                                            Jatin.idnaniwassosicates@gmail.com
                                         </div>
                                         <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '4%' }} />
                                         <div className='socialmedia-icons'>
