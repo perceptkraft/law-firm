@@ -1,5 +1,7 @@
 import Homepage from "./Contact Dashboard/ContactHomepage";
 import HomePage from "./components/Home Page/homepage";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import {
   BrowserRouter as Router,
   Routes,

@@ -13,7 +13,7 @@ const Header = () => {
     const handleShow = () => setShow(true)
     return (<>
         <Fade top>
-            <div className='headerClass sticky-top shadow' style={{ background: 'transparent' }}>
+            <div className='headerClass bg-black sticky-top shadow' style={{ background: 'transparent' }}>
                 <Navbar expand="lg" style={{ textTransform: 'uppercase', fontFamily: 'Roboto', fontWeight: '400', letterSpacing: '2px', }}>
                     <Container>
                         <Navbar.Brand href="#"><img src={Logo} alt='' width="100px" height="80px" /></Navbar.Brand>
