@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Fade from "react-reveal/Fade";
-import Logo from "../../images/sliderlogo.png";
+import Logo from "../../images/IdnaniLogo02.png";
 import { FaSearch } from 'react-icons/fa'
 import Modal from 'react-bootstrap/Modal'
 
@@ -12,11 +12,13 @@ const Header = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true)
     return (<>
-        <Fade top>
-            <div className='headerClass bg-black sticky-top shadow' style={{ background: 'transparent' }}>
+        <Fade>
+            <div className='headerClass sticky-top shadow' style={{ background: 'black' }}>
                 <Navbar expand="lg" style={{ textTransform: 'uppercase', fontFamily: 'Roboto', fontWeight: '400', letterSpacing: '2px', }}>
                     <Container>
-                        <Navbar.Brand href="#"><img src={Logo} alt='' width="100px" height="80px" /></Navbar.Brand>
+                        <Navbar.Brand href="#">
+                            <img src={Logo} alt='' width="40px" height="100%" />
+                        </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="m-auto d-flex justify-content-center">
@@ -26,7 +28,6 @@ const Header = () => {
                                 <Nav.Link href="#ourteam" className='text-light'>
                                     Our Team
                                 </Nav.Link>
-
                                 <Nav.Link href="#litigation" className='text-light'>
                                     Litigation
                                 </Nav.Link>
@@ -46,21 +47,21 @@ const Header = () => {
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
-                 
+
                 </Navbar>
             </div>
         </Fade>
         <div>
-               <Modal show={show} onHide={handleClose}>
-                        <Modal.Header>
-                            <Modal.Title>Modal heading</Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                            Woohoo, you're reading this text in a modal!
-                        </Modal.Body>
-                    </Modal>
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header>
+                    <Modal.Title>Modal heading</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    Woohoo, you're reading this text in a modal!
+                </Modal.Body>
+            </Modal>
         </div>
-        </>
+    </>
     )
 }
 

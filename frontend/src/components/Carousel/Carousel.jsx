@@ -17,7 +17,7 @@ const Slider = (id) => {
 
     return (<>
     <Header />
-        <div>            
+        <div>           
             <div className=''>
                 <Carousel activeIndex={index} onSelect={handleSelect} indicators={false}>
                     <Carousel.Item>
