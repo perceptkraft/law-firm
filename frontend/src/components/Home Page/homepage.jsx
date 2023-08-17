@@ -13,7 +13,7 @@ import Carousel from "../Carousel/Carousel";
 const homepage = () => {
     return (<>
         <div>
-            <Header />
+            {/* <Header /> */}
             <Carousel />
             <About />
             <PracticeArea />

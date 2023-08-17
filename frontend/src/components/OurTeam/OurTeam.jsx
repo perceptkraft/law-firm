@@ -21,8 +21,8 @@ const OurTeam = () => {
                         <div class="card h-100 TeamCard w-75 rounded-3 ml-5">
                             <img src={User} class="card-img-top" alt="..." className='w-100 h-75 p-1' />
                             <div class="card-body">
-                                <h5 class="card-title">DIKSHA IDNANI GURNANI</h5>
-                                <p class="card-text">L.L.B/B.L.S</p>
+                                <h5 class="card-title">HARESH IDNANI</h5>
+                                <p class="card-text">L.L.B/B.COM</p>
                                 <div>
                                     <ul className='d-flex justify-content-evenly ' style={{ listStyle: 'none', marginRight: '15%' }}>
                                         <li style={{ cursor: 'pointer' }}>
@@ -99,7 +99,7 @@ const OurTeam = () => {
                         <div class="card h-100  w-75 rounded-3 ml-5">
                             <img src={User} class="card-img-top" alt="..." className='w-100 h-75 p-1' />
                             <div class="card-body">
-                                <h5 class="card-title">DIKSHA IDNANI GURNANI</h5>
+                                <h5 class="card-title">JATIN IDNANI</h5>
                                 <p class="card-text">L.L.B/B.L.S</p>
                                 <div>
                                     <ul className='d-flex justify-content-evenly' style={{ listStyle: 'none', marginRight: '15%' }}>
@@ -131,43 +131,7 @@ const OurTeam = () => {
                         </div>
                     </Pulse>
                 </div>
-                <div class="col-3">
-                    <Pulse>
-                        <div class="card h-100  w-75 rounded-3 ml-5">
-                            <img src={User} class="card-img-top" alt="..." className='w-100 h-75 p-1' />
-                            <div class="card-body">
-                                <h5 class="card-title">DIKSHA IDNANI GURNANI</h5>
-                                <p class="card-text">L.L.B/B.L.S</p>
-                                <div>
-                                    <ul className='d-flex justify-content-evenly' style={{ listStyle: 'none', marginRight: '15%' }}>
-                                        <li style={{ cursor: 'pointer' }}>
-                                            <FaFacebook />
-                                        </li>
-                                        <li style={{ cursor: 'pointer' }}>
-                                            <FaInstagram />
-                                        </li>
-                                        <li style={{ cursor: 'pointer' }}>
-                                            <FaLinkedin />
-                                        </li>
-                                        <li style={{ cursor: 'pointer' }}>
-                                            <FaYoutube />
-                                        </li>
-                                        <li style={{ cursor: 'pointer' }}>
-                                            <FaPinterest />
-                                        </li>
-                                        <li style={{ cursor: 'pointer' }}>
-                                            <FaReddit />
-                                        </li>
-                                        <li style={{ cursor: 'pointer' }}>
-                                            <FaTwitter />
-                                        </li>
-                                    </ul>
-                                </div>
-                                <button className='mb-5 showButton' style={{ width: '100%', backgroundColor: 'none', border: 'none', padding: '5px' }}>Read more</button>
-                            </div>
-                        </div>
-                    </Pulse>
-                </div>
+
             </div>
 
         </div>

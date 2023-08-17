@@ -6,7 +6,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import './Contact.css';
 import Fade from 'react-reveal/Fade';
-import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa"
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa"
+import LogoImage from "../../images/sliderlogo.png"
 
 const Contact = () => {
     return (
@@ -82,13 +83,15 @@ const Contact = () => {
                                 <Fade right>
                                     <div className='contactInfodiv'>
                                         <div className='call-icon'>
-                                            <p>Icon</p>
+                                            <p>
+                                                <img src={LogoImage} alt="" className='w-25 h-25' />
+                                            </p>
                                         </div>
                                         <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
                                         <div>
                                             <h5>+91 9076888888</h5>
                                         </div>
-                                        <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '4%' }} />
+                                        <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
                                         <div>
                                             <p>
                                                 Idnani Law Associates,<br />
@@ -103,13 +106,13 @@ const Contact = () => {
                                         <div>
                                             mail@idnaniawassosicates.com<br />
                                         </div>
-                                        <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '4%' }} />
+                                        <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
                                         <div className='socialmedia-icons'>
                                             <Row>
                                                 <Col><p className='facebookIcon'><FaFacebook /></p></Col>
                                                 <Col ><p className='twitterIcon'><FaTwitter /></p></Col>
                                                 <Col ><p className='linkdinIcon'><FaLinkedin /></p></Col>
-                                                <Col ><p className='youtubeIcon'><FaYoutube /></p></Col>
+                                                <Col ><p className='youtubeIcon'><FaInstagram /></p></Col>
                                             </Row>
                                         </div>
                                     </div>

@@ -1,16 +1,16 @@
-.contactInfo{
-    
+.contactInfo {
+
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-.contactInfo .contactInfodiv{
+.contactInfo .contactInfodiv {
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-.contactInfo .socialmedia-icons{
+.contactInfo .socialmedia-icons {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -18,62 +18,69 @@
     margin-left: 25%;
     margin-top: 4%;
     border: 1;
-    border-color: black;   
+    border-color: black;
     margin-bottom: 5%;
 }
 
-.socialmedia-icons .facebookIcon , .linkdinIcon, .twitterIcon, .youtubeIcon {
+.socialmedia-icons .facebookIcon,
+.linkdinIcon,
+.twitterIcon,
+.youtubeIcon {
     border-style: solid;
     border-width: 1px;
     border-radius: 55%;
     border-color: black !important;
-    height: 90%;
-    width: 80%;
+    height: 70%;
+    width: 70%;
     text-align: center;
-    padding-top: 15px;
+    padding: 5px;   
     align-items: center;
     justify-content: center;
     font-family: 'Roboto';
-    font-size: 15px;
+    font-size: 19px;
     font-weight: 5px;
 }
 
-.facebookIcon:hover{
+
+
+.facebookIcon:hover {
     border-style: solid;
     border-width: 1px;
     border-radius: 55%;
-    border-color: lightblue !important;
-    background-color: lightblue ;
+    border-color: #4267B2 !important;
+    background-color: #4267B2;
     color: white;
     cursor: pointer;
 }
 
-.linkdinIcon:hover{
+.linkdinIcon:hover {
     border-style: solid;
     border-width: 1px;
     border-radius: 55%;
     border-color: lightblue !important;
-    background-color: lightblue ;
+    background-color: lightblue;
     color: white;
     cursor: pointer;
 }
 
-.twitterIcon:hover{
+.twitterIcon:hover {
     border-style: solid;
     border-width: 1px;
     border-radius: 55%;
-    border-color: lightblue !important;
-    background-color: lightblue ;
+    border-color: lightskyblue !important;
+    background-color: lightskyblue;
     cursor: pointer;
     color: white;
 }
 
-.youtubeIcon:hover{
+.youtubeIcon:hover {
     border-style: solid;
     border-width: 1px;
     border-radius: 55%;
-    border-color: red !important;
-    background-color: red ;
+    border-color: #E1306C
+    !important;
+    background-color: #E1306C
+    ;
     color: white;
     cursor: pointer;
 }
