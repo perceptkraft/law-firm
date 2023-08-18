@@ -14,39 +14,39 @@ const PracticeArea = () => {
                 <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
             </Fade>
 
-            <div className='article' style={{ backgroundColor: 'black', color: 'white', height: '100%', marginTop: '4%', textAlign: 'center' }}>
-                <Carousel indicators={false}>
+            <div className='article' style={{ backgroundColor: 'black', color: 'white', height: '100%', marginTop: '4%' }}>
+                <Carousel indicators={false} controls={false} interval={4000}>
 
                     <Carousel.Item>
-                        <div className="row g-5 mb-5">
+                        <div className="row g-0 mb-4">
                             <div className='col-2'></div>
-                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                <div className="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
-                                        <img src={StructuringNegotiationOfContracts} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">Structuring & Negotiation of Contracts</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                <div className="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
-                                        <img src={DisputeResolution} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">Dispute Resolution</h5>
+                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-3" style={{ fontFamily: 'Montserrat' }}>
+                                <div className="card h-100" style={{ backgroundColor: 'transparent', color: 'black', }}>
+                                    <div className='' style={{ border: '1px solid black', width: '85%', height: '100%', backgroundColor: '#F7F7F7' }}>
+                                        <img src={StructuringNegotiationOfContracts} alt='' className='my-4 ms-4' style={{ color: 'black', background: 'black', width: '20%', height: '20%' }} />
+                                        <p className="text-start ms-4 mt-4 my-4" style={{ fontSize: '18px' }}>Midiation</p>
+                                        <span ><div className='ms-4 mb-4' style={{ fontSize: '12px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, cupiditate.</div></span>
+                                        <button className='ms-4 my-4' style={{ fontSize: '12px' }}>Lorem </button>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                <div className="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
-                                        <img src={IntellectualPropertyInformationTechnology} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
+                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-3" style={{ fontFamily: 'Montserrat' }}>
+                                <div className="card h-100" style={{ backgroundColor: 'transparent', color: 'black', }}>
+                                    <div className='' style={{ border: '1px solid black', width: '85%', height: '100%', backgroundColor: '#F7F7F7' }}>
+                                        <img src={StructuringNegotiationOfContracts} alt='' className='my-4 ms-4' style={{ color: 'black', background: 'black', width: '20%', height: '20%' }} />
+                                        <p className="text-start ms-4 mt-4 my-4" style={{ fontSize: '18px' }}>Midiation</p>
+                                        <span ><div className='ms-4 mb-4' style={{ fontSize: '12px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, cupiditate.</div></span>
+                                        <button className='ms-4 my-4' style={{ fontSize: '12px' }}>Lorem </button>
                                     </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">Intellectual Property & Information Technology</h5>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-3" style={{ fontFamily: 'Montserrat' }}>
+                                <div className="card h-100" style={{ backgroundColor: 'transparent', color: 'black', }}>
+                                    <div className='' style={{ border: '1px solid black', width: '85%', height: '100%', backgroundColor: '#F7F7F7' }}>
+                                        <img src={StructuringNegotiationOfContracts} alt='' className='my-4 ms-4' style={{ color: 'black', background: 'black', width: '20%', height: '20%' }} />
+                                        <p className="text-start ms-4 mt-4 my-4" style={{ fontSize: '18px' }}>Midiation</p>
+                                        <span ><div className='ms-4 mb-4' style={{ fontSize: '12px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, cupiditate.</div></span>
+                                        <button className='ms-4 my-4' style={{ fontSize: '12px' }}>Lorem </button>
                                     </div>
                                 </div>
                             </div>
@@ -54,72 +54,71 @@ const PracticeArea = () => {
                     </Carousel.Item>
 
                     <Carousel.Item>
-                        <div className="row g-5 mb-5">
-                            <div className='col-lg-1 col-md-1 col-sm-0 col-xs-0'></div>
-                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                <div className="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
-                                        <img src={StructuringNegotiationOfContracts} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">Structuring & Negotiation of Contracts 1</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                <div className="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
-                                        <img src={DisputeResolution} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">Dispute Resolution</h5>
+                        <div className="row g-0 mb-4">
+                            <div className='col-2'></div>
+                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-3" style={{ fontFamily: 'Montserrat' }}>
+                                <div className="card h-100" style={{ backgroundColor: 'transparent', color: 'black', }}>
+                                    <div className='' style={{ border: '1px solid black', width: '85%', height: '100%', backgroundColor: '#F7F7F7' }}>
+                                        <img src={StructuringNegotiationOfContracts} alt='' className='my-4 ms-4' style={{ color: 'black', background: 'black', width: '20%', height: '20%' }} />
+                                        <p className="text-start ms-4 mt-4 my-4" style={{ fontSize: '18px' }}>Midiation</p>
+                                        <span ><div className='ms-4 mb-4' style={{ fontSize: '12px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, cupiditate.</div></span>
+                                        <button className='ms-4 my-4' style={{ fontSize: '12px' }}>Lorem </button>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                <div className="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
-                                        <img src={IntellectualPropertyInformationTechnology} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">Intellectual Property & Information Technology</h5>
+                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-3" style={{ fontFamily: 'Montserrat' }}>
+                                <div className="card h-100" style={{ backgroundColor: 'transparent', color: 'black', }}>
+                                    <div className='' style={{ border: '1px solid black', width: '85%', height: '100%', backgroundColor: '#F7F7F7' }}>
+                                        <img src={StructuringNegotiationOfContracts} alt='' className='my-4 ms-4' style={{ color: 'black', background: 'black', width: '20%', height: '20%' }} />
+                                        <p className="text-start ms-4 mt-4 my-4" style={{ fontSize: '18px' }}>Midiation</p>
+                                        <span ><div className='ms-4 mb-4' style={{ fontSize: '12px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, cupiditate.</div></span>
+                                        <button className='ms-4 my-4' style={{ fontSize: '12px' }}>Lorem </button>
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-lg-1 col-md-1 col-sm-0 col-xs-0'></div>
+                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-3" style={{ fontFamily: 'Montserrat' }}>
+                                <div className="card h-100" style={{ backgroundColor: 'transparent', color: 'black', }}>
+                                    <div className='' style={{ border: '1px solid black', width: '85%', height: '100%', backgroundColor: '#F7F7F7' }}>
+                                        <img src={StructuringNegotiationOfContracts} alt='' className='my-4 ms-4' style={{ color: 'black', background: 'black', width: '20%', height: '20%' }} />
+                                        <p className="text-start ms-4 mt-4 my-4" style={{ fontSize: '18px' }}>Midiation</p>
+                                        <span ><div className='ms-4 mb-4' style={{ fontSize: '12px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, cupiditate.</div></span>
+                                        <button className='ms-4 my-4' style={{ fontSize: '12px' }}>Lorem </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </Carousel.Item>
 
                     <Carousel.Item>
-                        <div className="row g-5 mb-5">
-
-                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                <div className="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
-                                        <img src={StructuringNegotiationOfContracts} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">Insolvency & Bankruptcy</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                <div className="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
-                                        <img src={DisputeResolution} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">Compliance, Bribery & Anti- corruption Laws</h5>
+                        <div className="row g-0 mb-4">
+                            <div className='col-2'></div>
+                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-3" style={{ fontFamily: 'Montserrat' }}>
+                                <div className="card h-100" style={{ backgroundColor: 'transparent', color: 'black', }}>
+                                    <div className='' style={{ border: '1px solid black', width: '85%', height: '100%', backgroundColor: '#F7F7F7' }}>
+                                        <img src={StructuringNegotiationOfContracts} alt='' className='my-4 ms-4' style={{ color: 'black', background: 'black', width: '20%', height: '20%' }} />
+                                        <p className="text-start ms-4 mt-4 my-4" style={{ fontSize: '18px' }}>Midiation</p>
+                                        <span ><div className='ms-4 mb-4' style={{ fontSize: '12px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, cupiditate.</div></span>
+                                        <button className='ms-4 my-4' style={{ fontSize: '12px' }}>Lorem </button>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                <div className="card h-100 d-flex justify-content-center align-items-center " style={{ backgroundColor: 'transparent', color: 'white' }}>
-                                    <div className='justify-content-center align-items-center ' style={{ border: '1px solid white', borderRadius: '50%', padding: '50px', width: '75%', height: '100%' }}>
-                                        <img src={IntellectualPropertyInformationTechnology} alt='' className='justify-content-center align-items-center mt-3' style={{ width: '50%', height: '75%' }} />
+                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-3" style={{ fontFamily: 'Montserrat' }}>
+                                <div className="card h-100" style={{ backgroundColor: 'transparent', color: 'black', }}>
+                                    <div className='' style={{ border: '1px solid black', width: '85%', height: '100%', backgroundColor: '#F7F7F7' }}>
+                                        <img src={StructuringNegotiationOfContracts} alt='' className='my-4 ms-4' style={{ color: 'black', background: 'black', width: '20%', height: '20%' }} />
+                                        <p className="text-start ms-4 mt-4 my-4" style={{ fontSize: '18px' }}>Midiation</p>
+                                        <span ><div className='ms-4 mb-4' style={{ fontSize: '12px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, cupiditate.</div></span>
+                                        <button className='ms-4 my-4' style={{ fontSize: '12px' }}>Lorem </button>
                                     </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">Joint Ventures</h5>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-3" style={{ fontFamily: 'Montserrat' }}>
+                                <div className="card h-100" style={{ backgroundColor: 'transparent', color: 'black', }}>
+                                    <div className='' style={{ border: '1px solid black', width: '85%', height: '100%', backgroundColor: '#F7F7F7' }}>
+                                        <img src={StructuringNegotiationOfContracts} alt='' className='my-4 ms-4' style={{ color: 'black', background: 'black', width: '20%', height: '20%' }} />
+                                        <p className="text-start ms-4 mt-4 my-4" style={{ fontSize: '18px' }}>Midiation</p>
+                                        <span ><div className='ms-4 mb-4' style={{ fontSize: '12px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, cupiditate.</div></span>
+                                        <button className='ms-4 my-4' style={{ fontSize: '12px' }}>Lorem </button>
                                     </div>
                                 </div>
                             </div>

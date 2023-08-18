@@ -1,11 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react';
 import User1 from "../../images/user2.jpg";
 import { FaFacebook, FaInstagram, FaLinkedin, FaPinterest, FaReddit, FaTwitter, FaYoutube } from "react-icons/fa"
 import "./OurTeam.css";
 import Fade from 'react-reveal/Fade';
 import Pulse from "react-reveal/Pulse";
+import { Modal, Button } from 'react-bootstrap'
 
 const OurTeam = () => {
+
+    const [show1, setShow1] = useState(false);
+    const handleClose1 = () => setShow1(false);
+    const handleShow1 = () => setShow1(true)
+
+    const [show2, setShow2] = useState(false);
+    const handleClose2 = () => setShow2(false);
+    const handleShow2 = () => setShow2(true)
+
+    const [show3, setShow3] = useState(false);
+    const handleClose3 = () => setShow3(false);
+    const handleShow3 = () => setShow3(true)
+
     return (
         <div className='mt-5 mb-5' id="ourteam">
 
@@ -51,7 +65,7 @@ const OurTeam = () => {
                                     </div>
 
                                     <div className='showButton'>
-                                        <button className='mb-2' style={{ width: '100%', backgroundColor: 'none', border: 'none', padding: '5px' }}>Read more</button>
+                                        <button className='mb-2' onClick={handleShow3} style={{ width: '100%', backgroundColor: 'none', border: 'none', padding: '5px' }}>Read more</button>
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +104,7 @@ const OurTeam = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <button className='mb-2 showButton' style={{ width: '100%', backgroundColor: 'none', border: 'none', padding: '5px' }}>Read more</button>
+                                <button className='mb-2 showButton' onClick={handleShow2} style={{ width: '100%', backgroundColor: 'none', border: 'none', padding: '5px' }}>Read more</button>
                             </div>
                         </div>
                     </Pulse>
@@ -127,12 +141,45 @@ const OurTeam = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <button className='mb-2 showButton' style={{ width: '100%', backgroundColor: 'none', border: 'none', padding: '5px' }}>Read more</button>
+                                <button className='mb-2 showButton' onClick={handleShow1} style={{ width: '100%', backgroundColor: 'none', border: 'none', padding: '5px' }}>Read more</button>
                             </div>
                         </div>
                     </Pulse>
                 </div>
-                s
+
+                <div>
+                    <Modal show={show1} onHide={handleClose1} aria-labelledby="contained-modal-title-vcenter"
+                        centered className='p-5'>
+                        <Modal.Header closeButton>
+                            JATIN IDNANI
+                        </Modal.Header>
+                        <Modal.Body className='mt-4'>
+                        </Modal.Body>
+                    </Modal>
+                </div>
+
+                <div>
+                    <Modal show={show2} onHide={handleClose2} aria-labelledby="contained-modal-title-vcenter"
+                        centered className='p-5'>
+                        <Modal.Header closeButton>
+                        DIKSHA IDNANI GURNANI
+                        </Modal.Header>
+                        <Modal.Body className='mt-4'>
+                        </Modal.Body>
+                    </Modal>
+                </div>
+
+                <div>
+                    <Modal show={show3} onHide={handleClose3} aria-labelledby="contained-modal-title-vcenter"
+                        centered className='p-5'>
+                        <Modal.Header closeButton>
+                        HARESH IDNANI
+                        </Modal.Header>
+                        <Modal.Body className='mt-4'>
+                        </Modal.Body>
+                    </Modal>
+                </div>
+
             </div>
 
         </div>
