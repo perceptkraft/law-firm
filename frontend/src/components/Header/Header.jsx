@@ -14,10 +14,12 @@ const Header = () => {
     return (<>
         <Fade>
             <div className='headerClass sticky-top shadow' style={{ background: 'black' }}>
-                <Navbar expand="lg" style={{ textTransform: 'uppercase', fontFamily: 'Roboto', fontWeight: '400', letterSpacing: '2px', }}>
+                <Navbar expand="lg" style={{ textTransform: 'uppercase', fontFamily: 'Roboto', fontWeight: '400', letterSpacing: '2px', height: '100%' }}>
                     <Container>
                         <Navbar.Brand href="#">
-                            <img src={Logo} alt='' width="90px" height="100%" />
+                            <div style={{ border: 'solid', borderRight: '1px solid #A59269'}} className='pe-5'>
+                                <img src={Logo} alt='' style={{ width:"180px" , height:"100%" }} />
+                            </div>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
@@ -51,17 +53,6 @@ const Header = () => {
                 </Navbar>
             </div>
         </Fade>
-        <div>
-            <Modal show={show} onHide={handleClose}>
-                <Modal.Header>
-                    <Modal.Title>Search</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                    <input type="text" className='form-control' />
-                    <button type="submit" className='btn btn-outline-dark mt-4'>Submit</button>
-                </Modal.Body>
-            </Modal>
-        </div>
     </>
     )
 }

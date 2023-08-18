@@ -17,10 +17,10 @@ const Slider = (id) => {
     return (<>
         <div>
             <div>
-                <Carousel activeIndex={index} onSelect={handleSelect} indicators={false}>
+                <Carousel activeIndex={index} onSelect={handleSelect} indicators={false} className='responsiveParallax'>
                     <Carousel.Item>
                         <img
-                            className="d-block img-fluid"
+                            className="d-block img-fluid imageResponsive"
                             src={Slider1}
                             alt="Second slide"
                         />

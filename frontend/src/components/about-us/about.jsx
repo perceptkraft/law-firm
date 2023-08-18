@@ -11,16 +11,21 @@ const About = () => {
   return (<>
     <div className='mb-5' id="about" style={{ marginTop: '5%', position: 'relative' }}>
 
-      <Fade Top>
-        <h5 className='d-flex justify-content-center h1 mt-5'>Why us?</h5>
-
-        <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
-
-
-        <p style={{ textAlign: 'center', wordWrap: 'break-word' }} className='mt-4'>
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in piece of classical Latin literature<br /> from 45 BC, it a old. Richard McClintock, looked up one of the more obscure
-        </p>
-      </Fade>
+      <Fade>
+        <div className='row'>
+          <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+            <h5 className='d-flex justify-content-center h1 mt-5'>Why us?</h5>
+          </div>
+          <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+            <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
+          </div>
+          <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 ps-4 pe-4'>
+            <p style={{ textAlign: 'center', wordWrap: 'break-word' }} className='mt-4'>
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in piece of classical Latin literature<br /> from 45 BC, it a old. Richard McClintock, looked up one of the more obscure
+            </p>
+          </div>
+        </div>
+      </Fade >
 
       <Row className='mt-5' style={{ justifyContent: 'center', alignItems: 'center' }}>
 
@@ -78,7 +83,7 @@ const About = () => {
         </Col>
 
       </Row>
-    </div>
+    </div >
   </>
   )
 }
