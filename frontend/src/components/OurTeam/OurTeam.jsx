@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaPinterest, FaReddit, FaTwitter, 
 import "./OurTeam.css";
 import Fade from 'react-reveal/Fade';
 import Pulse from "react-reveal/Pulse";
-import { Modal, Button } from 'react-bootstrap'
+import { Modal } from 'react-bootstrap'
 
 const OurTeam = () => {
 

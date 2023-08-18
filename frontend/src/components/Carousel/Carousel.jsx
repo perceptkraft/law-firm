@@ -28,7 +28,7 @@ const Slider = (id) => {
                                 style={{ height: '770px' }}
                             />
                             <Carousel.Caption>
-                                <h3>First slide label</h3>
+                                
                                 <p></p>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -40,7 +40,7 @@ const Slider = (id) => {
                                 style={{ height: '770px' }}
                             />
                             <Carousel.Caption>
-                                <h3>First slide label</h3>
+                                
                                 <p></p>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -52,7 +52,7 @@ const Slider = (id) => {
                                 style={{ height: '770px' }}
                             />
                             <Carousel.Caption>
-                                <h3>First slide label</h3>
+                                
                                 <p></p>
                             </Carousel.Caption>
                         </Carousel.Item>
