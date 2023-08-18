@@ -26,7 +26,7 @@ const Litigation = () => {
                             
                         </Col>
 
-                        <Col xs={5}>
+                        <Col lg={5} md={5} sm={5} xs={12}>
                             <Fade left delay={700}>
                                 <div className='mt-5' style={{ lineHeight: '250%' }}>
                                     <h3 style={{ textAlign: 'start', marginLeft: '30px' }}>Litigation Support</h3>
@@ -44,7 +44,7 @@ const Litigation = () => {
                             </Fade>
                         </Col>
 
-                        <Col xs={4}>
+                        <Col lg={5} md={5} sm={5} xs={12}>
                             <Fade left delay={1400}>
                                 <div className='mt-5' style={{ lineHeight: '250%' }}>
                                     <h3 style={{ textAlign: 'start', marginLeft: '30px' }}>AREAS OF PRACTICE</h3>

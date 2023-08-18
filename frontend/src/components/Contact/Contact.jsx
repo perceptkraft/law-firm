@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import './Contact.css';
 import Fade from 'react-reveal/Fade';
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa"
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
 import LogoImage from "../../images/sliderlogo.png"
 
 const Contact = () => {
@@ -22,7 +22,7 @@ const Contact = () => {
                 <Form>
                     <Row>
                         <Col xs={1}></Col>
-                        <Col xs={5} className='mt-5'>
+                        <Col lg={5} md={5} sm={5} xs={12} className='mt-5'>
                             <div className='mt-5'>
 
                                 <div className='row'>
@@ -78,7 +78,7 @@ const Contact = () => {
 
                         </Col>
 
-                        <Col xs={6}>
+                        <Col lg={5} md={5} sm={5} xs={12}>
                             <div className='contactInfo'>
                                 <Fade right>
                                     <div className='contactInfodiv'>
@@ -102,7 +102,7 @@ const Contact = () => {
                                                 Dist. Thane Mumbai
                                             </p>
                                         </div>
-                                        <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
+                                        <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%' }} />
                                         <div>
                                             mail@idnaniawassosicates.com<br />
                                         </div>

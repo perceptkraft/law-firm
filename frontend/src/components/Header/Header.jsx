@@ -14,14 +14,14 @@ const Header = () => {
     return (<>
         <Fade>
             <div className='headerClass sticky-top shadow' style={{ background: 'black' }}>
-                <Navbar expand="lg" style={{ textTransform: 'uppercase', fontFamily: 'Roboto', fontWeight: '400', letterSpacing: '2px', }}>
-                    <Container>
+                <Navbar expand="lg" style={{ textTransform: 'uppercase', fontFamily: 'Montserrat', fontWeight: '400', letterSpacing: '2px', }}>
+                    <Container fluid className='px-5'>
                         <Navbar.Brand href="#">
                             <img src={Logo} alt='' width="40px" height="100%" />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                        <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="m-auto d-flex justify-content-center">
+                        <Navbar.Collapse className='d-flex justify-content-end' id="responsive-navbar-nav">
+                            <Nav className="me-4">
                                 <Nav.Link href="#about" className='text-light'>
                                     About
                                 </Nav.Link>
@@ -39,25 +39,27 @@ const Header = () => {
                                 </Nav.Link>
                             </Nav>
                             <Nav>
-                                <form class="form-inline my-2 my-lg-0">
-                                    <button class="btn btn-outline-light my-2 my-sm-0 rounded-5" type="submit" onClick={handleShow}>
-                                        <FaSearch />
-                                    </button>
-                                </form>
+                                <button class="btn btn-outline-light my-2 my-sm-0 rounded-5" type="submit" onClick={handleShow}>
+                                    <FaSearch />
+                                </button>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
-
                 </Navbar>
             </div>
         </Fade>
         <div>
-            <Modal show={show} onHide={handleClose}>
-                <Modal.Header>
-                    <Modal.Title>Modal heading</Modal.Title>
+            <Modal show={show} onHide={handleClose} aria-labelledby="contained-modal-title-vcenter"
+                centered className='p-5'>
+                <Modal.Header closeButton>
                 </Modal.Header>
-                <Modal.Body>
-                    Woohoo, you're reading this text in a modal!
+                <Modal.Body className='mt-4'>
+                    <form>
+                        <div class="form-group ">
+                            <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search Here..." />
+                        </div>
+                        <button type="button" class="mt-5 btn btn-outline-dark mt-4 w-100">Submit</button>
+                    </form>
                 </Modal.Body>
             </Modal>
         </div>
