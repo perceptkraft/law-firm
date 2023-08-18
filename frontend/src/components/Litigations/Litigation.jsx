@@ -7,23 +7,22 @@ import './Litigation.css';
 
 const Litigation = () => {
     return (<>
-        <div>
-            <Fade top>
-                <h5 className='d-flex justify-content-center h1 mt-2'>Support</h5>
-
-                <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
-            </Fade>
-        </div>
         <div className=''></div>
         <div id="litigation" className='article' style={{ backgroundColor: 'black', color: 'white' }}>
+            <div>
+                <Fade top>
+                    <h5 className='d-flex justify-content-center h1 mt-2'>Support</h5>
 
+                    <hr style={{ width: '5%', textAlign: 'center', marginLeft: '47.7%', marginTop: '1%' }} />
+                </Fade>
+            </div>
             <div style={{ marginTop: '2%' }}>
                 <Container>
 
                     <Row>
 
                         <Col xs={1}>
-                            
+
                         </Col>
 
                         <Col lg={5} md={5} sm={5} xs={12}>

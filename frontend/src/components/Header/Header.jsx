@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Fade from "react-reveal/Fade";
-import Logo from "../../images/IdnaniLogo02.png";
+import Logo from "../../images/Asset 1.png";
 import { FaSearch } from 'react-icons/fa'
 import Modal from 'react-bootstrap/Modal'
 
@@ -14,14 +14,14 @@ const Header = () => {
     return (<>
         <Fade>
             <div className='headerClass sticky-top shadow' style={{ background: 'black' }}>
-                <Navbar expand="lg" style={{ textTransform: 'uppercase', fontFamily: 'Montserrat', fontWeight: '400', letterSpacing: '2px', }}>
-                    <Container fluid className='px-5'>
+                <Navbar expand="lg" style={{ textTransform: 'uppercase', fontFamily: 'Roboto', fontWeight: '400', letterSpacing: '2px', }}>
+                    <Container>
                         <Navbar.Brand href="#">
-                            <img src={Logo} alt='' width="40px" height="100%" />
+                            <img src={Logo} alt='' width="90px" height="100%" />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                        <Navbar.Collapse className='d-flex justify-content-end' id="responsive-navbar-nav">
-                            <Nav className="me-4">
+                        <Navbar.Collapse id="responsive-navbar-nav">
+                            <Nav className="m-auto d-flex justify-content-center">
                                 <Nav.Link href="#about" className='text-light'>
                                     About
                                 </Nav.Link>
@@ -39,27 +39,26 @@ const Header = () => {
                                 </Nav.Link>
                             </Nav>
                             <Nav>
-                                <button class="btn btn-outline-light my-2 my-sm-0 rounded-5" type="submit" onClick={handleShow}>
-                                    <FaSearch />
-                                </button>
+                                <form class="form-inline my-2 my-lg-0">
+                                    <button class="btn btn-outline-light my-2 my-sm-0 rounded-5" type="submit" onClick={handleShow}>
+                                        <FaSearch />
+                                    </button>
+                                </form>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
+
                 </Navbar>
             </div>
         </Fade>
         <div>
-            <Modal show={show} onHide={handleClose} aria-labelledby="contained-modal-title-vcenter"
-                centered className='p-5'>
-                <Modal.Header closeButton>
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header>
+                    <Modal.Title>Search</Modal.Title>
                 </Modal.Header>
-                <Modal.Body className='mt-4'>
-                    <form>
-                        <div class="form-group ">
-                            <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search Here..." />
-                        </div>
-                        <button type="button" class="mt-5 btn btn-outline-dark mt-4 w-100">Submit</button>
-                    </form>
+                <Modal.Body>
+                    <input type="text" className='form-control' />
+                    <button type="submit" className='btn btn-outline-dark mt-4'>Submit</button>
                 </Modal.Body>
             </Modal>
         </div>

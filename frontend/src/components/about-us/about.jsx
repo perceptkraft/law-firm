@@ -9,7 +9,7 @@ import Slide from 'react-reveal/Slide';
 
 const About = () => {
   return (<>
-    <div className='mb-5' id="about" style={{ marginTop: '180px' }}>
+    <div className='mb-5' id="about" style={{ marginTop: '5%', position: 'relative' }}>
 
       <Fade Top>
         <h5 className='d-flex justify-content-center h1 mt-5'>Why us?</h5>

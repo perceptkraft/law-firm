@@ -1,4 +1,3 @@
-import Homepage from "./Contact Dashboard/ContactHomepage";
 import HomePage from "./components/Home Page/homepage";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -15,7 +14,6 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path="/dashboard" element={<Homepage />} />
         </Routes>
       </Router>
     </div>
