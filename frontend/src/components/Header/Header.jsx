@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
@@ -7,9 +7,7 @@ import Logo from "../../images/Asset 1.png";
 import { FaSearch } from 'react-icons/fa'
 
 const Header = () => {
-    const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true)
+
     return (<>
         <Fade>
             <div className='headerClass sticky-top shadow' style={{ background: 'black' }}>
@@ -41,7 +39,7 @@ const Header = () => {
                             </Nav>
                             <Nav>
                                 <form class="form-inline my-2 my-lg-0">
-                                    <button class="btn btn-outline-light my-2 my-sm-0 rounded-5" type="submit" onClick={handleShow}>
+                                    <button class="btn btn-outline-light my-2 my-sm-0 rounded-5" type="submit">
                                         <FaSearch />
                                     </button>
                                 </form>
