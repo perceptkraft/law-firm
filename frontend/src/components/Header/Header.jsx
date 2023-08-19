@@ -5,7 +5,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Fade from "react-reveal/Fade";
 import Logo from "../../images/Asset 1.png";
 import { FaSearch } from 'react-icons/fa'
-import Modal from 'react-bootstrap/Modal'
 
 const Header = () => {
     const [show, setShow] = useState(false);
@@ -15,9 +14,9 @@ const Header = () => {
         <Fade>
             <div className='headerClass sticky-top shadow' style={{ background: 'black' }}>
                 <Navbar expand="lg" style={{ textTransform: 'uppercase', fontFamily: 'Roboto', fontWeight: '400', letterSpacing: '2px', height: '100%' }}>
-                    <Container>
-                        <Navbar.Brand href="#">
-                            <div style={{ border: 'solid', borderRight: '1px solid #A59269'}} className='pe-5'>
+                    <Container >
+                        <Navbar.Brand href="#"  style={{ border: 'solid', borderRight: '1px solid #A59269' }}>
+                            <div className='pe-5'>
                                 <img src={Logo} alt='' style={{ width:"180px" , height:"100%" }} />
                             </div>
                         </Navbar.Brand>

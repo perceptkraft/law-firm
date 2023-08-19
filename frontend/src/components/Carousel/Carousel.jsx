@@ -3,8 +3,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import './Carousel.css';
 import { useState } from 'react';
 import Slider1 from "./slider1.jpg"
-import Slider2 from './slider2.jpg';
-import Slider3 from './slider3.jpg';
+import Slider2 from './slider1.jpg';
+import Slider3 from './slider1.jpg';
 
 const Slider = (id) => {
 
